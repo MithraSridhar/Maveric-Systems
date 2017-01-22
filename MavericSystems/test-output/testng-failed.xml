@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [HDFC]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Url" value="https://netbanking.hdfcbank.com/netbanking/"/>
+  <test name="Features(failed)" parallel="classes">
+    <classes>
+      <class name="testscript.Scenario1">
+        <methods>
+          <include name="setData"/>
+          <include name="login1" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testscript.Scenario1 -->
+    </classes>
+  </test> <!-- Features(failed) -->
+</suite> <!-- Failed suite [HDFC] -->

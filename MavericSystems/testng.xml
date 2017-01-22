@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HDFC" parallel="classes" verbose="5">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="Url" value="https://netbanking.hdfcbank.com/netbanking/"></parameter>
+  <test name="Features">
+  <classes>
+ <class name="testscript.Scenario1" />
+  <class name="testscript.Scenario2" /> 
+ <class name="testscript.Scenario3" />
+  </classes>
+  </test> <!-- Features -->
+</suite> <!-- HDFC -->
