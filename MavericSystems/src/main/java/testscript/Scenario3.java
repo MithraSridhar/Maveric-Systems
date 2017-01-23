@@ -8,11 +8,16 @@ public class Scenario3 extends AnnotationsSetup {
 
 	@BeforeClass
 	public void setData() {
+		/*
+		 * In the excel sheet "TC1" which is located in the "data" folder, the given customer ID and password are dummy
+		 * values, please update it with the real account details and run the
+		 * script
+		 */
 		dataSheetName = "TC1";
 	}
 
 	@Test(dataProvider = "fetchData")
-	public void login3(String CID, String PW) throws InterruptedException {
+	public void addBene(String CID, String PW) throws InterruptedException {
 		login(CID, PW);
 		switchToFrame("common_menu1");
 		clickByXpath("//a[@title='Funds Transfer']");
@@ -21,16 +26,18 @@ public class Scenario3 extends AnnotationsSetup {
 		switchToFrame("left_menu");
 		Thread.sleep(3000);
 		clickByXpath("//li[@class='accord-menu last-child']");
-		System.out.println("success");
 		clickByXpath("//li[@id='TPA_nohref']");
-		System.out.println("success1");
 		switchToDefaultContent();
 		switchToFrame("main_part");
 		clickByXpath("//img[@src='default/gif/go_grey_btn.gif']");
 		switchToDefaultContent();
 		switchToFrame("main_part");
-		enterByXpath("//input[@name='fldAcctNo']", "50100052705811");
-		enterByXpath("//input[@name='fldAcctNo2']", "50100052705811");
+		/*
+		 * Below are dummy account number, please update it with the real
+		 * account number and run the script
+		 */
+		enterByXpath("//input[@name='fldAcctNo']", "00000052709999");
+		enterByXpath("//input[@name='fldAcctNo2']", "00000052709999");
 		enterByXpath("//input[@name='fldNamBenef']", "Sri");
 		enterByXpath("//input[@name='fldEmail']", "srdhar@gmail.com");
 		clickByXpath("//img[@src='default/gif/add.gif']");

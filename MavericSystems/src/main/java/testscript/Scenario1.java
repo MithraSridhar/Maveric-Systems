@@ -9,6 +9,11 @@ public class Scenario1 extends AnnotationsSetup {
 
 	@BeforeClass
 	public void setData() {
+		/*
+		 * In the excel sheet "TC1" which is located in the "data" folder, the given customer ID and password are dummy
+		 * values, please update it with the real account details and run the
+		 * script
+		 */
 		dataSheetName = "TC1";
 	}
 
@@ -17,7 +22,15 @@ public class Scenario1 extends AnnotationsSetup {
 		login(CID, PW);
 		switchToFrame("main_part");
 		clickByXpath("//span[@class='tableHeaderPSM']");
-		String Expectedaccno = "50100032464093";
+		/*
+		 * Below is dummy account number, please update it with the real account
+		 * number and run the script
+		 */
+		String Expectedaccno = "00000032469999";
+		/*
+		 * Below is dummy account Balance, please update it with the real
+		 * account balance and run the script
+		 */
 		String Expectedaccbal = "Total Available Balance: INR 10,341.01";
 		String Accoutno = driver.findElementByXPath("//tr[@class='unhideSavingAccts']/td/a").getText();
 		System.out.println(Accoutno);

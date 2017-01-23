@@ -11,6 +11,11 @@ public class Scenario2 extends AnnotationsSetup {
 
 	@BeforeClass
 	public void setData() {
+		/*
+		 * In the excel sheet "TC1" which is located in the "data" folder, the given customer ID and password are dummy
+		 * values, please update it with the real account details and run the
+		 * script
+		 */
 		dataSheetName = "TC1";
 	}
 
@@ -38,10 +43,9 @@ public class Scenario2 extends AnnotationsSetup {
 		 * Below I am returning all the rows in the Beneficiaries table, as it
 		 * is not static you can add your asserts based on the application
 		 * tested.
-		 */
-		System.out.println(rows.get(1).getText());
-		System.out.println(rows.get(2).getText());
-		System.out.println(rows.get(3).getText());
+		 */for (int i = 0; i <= rowcount; i++) {
+			System.out.println(rows.get(i).getText());
+		}
 		switchToDefaultContent();
 		switchToFrame("common_menu1");
 		clickByXpath("//img[@src='default/gif/logoutbtn.gif']");
