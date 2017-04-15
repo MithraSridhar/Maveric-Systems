@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="156236" started-at="2017-04-15T13:35:37Z" finished-at="2017-04-15T13:38:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="156236" started-at="2017-04-15T13:35:37Z" finished-at="2017-04-15T13:38:13Z">
+      <class name="testcases.TestCase4">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TestCase4@b4c3ab]" name="setData" is-config="true" duration-ms="1" started-at="2017-04-15T19:06:07Z" finished-at="2017-04-15T19:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TestCase4@b4c3ab]" name="beforeMethod" is-config="true" duration-ms="12075" started-at="2017-04-15T19:06:07Z" finished-at="2017-04-15T19:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="mulsyscheck()[pri:0, instance:testcases.TestCase4@b4c3ab]" name="mulsyscheck" duration-ms="34660" started-at="2017-04-15T19:06:19Z" finished-at="2017-04-15T19:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mulsyscheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TestCase4@b4c3ab]" name="afterMethod" is-config="true" duration-ms="1463" started-at="2017-04-15T19:06:54Z" finished-at="2017-04-15T19:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCase4 -->
+      <class name="testcases.TestCase3">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TestCase3@f8360d]" name="setData" is-config="true" duration-ms="0" started-at="2017-04-15T19:05:55Z" finished-at="2017-04-15T19:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TestCase3@f8360d]" name="beforeMethod" is-config="true" duration-ms="10393" started-at="2017-04-15T19:05:55Z" finished-at="2017-04-15T19:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="mulbrowsercheck()[pri:0, instance:testcases.TestCase3@f8360d]" name="mulbrowsercheck" duration-ms="11175" started-at="2017-04-15T19:06:06Z" finished-at="2017-04-15T19:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mulbrowsercheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TestCase3@f8360d]" name="afterMethod" is-config="true" duration-ms="1239" started-at="2017-04-15T19:06:17Z" finished-at="2017-04-15T19:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCase3 -->
+      <class name="testcases.TestCase6">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TestCase6@843fce]" name="setData" is-config="true" duration-ms="1" started-at="2017-04-15T19:06:47Z" finished-at="2017-04-15T19:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TestCase6@843fce]" name="beforeMethod" is-config="true" duration-ms="12736" started-at="2017-04-15T19:06:47Z" finished-at="2017-04-15T19:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="historycheck()[pri:0, instance:testcases.TestCase6@843fce]" name="historycheck" duration-ms="18055" started-at="2017-04-15T19:07:00Z" finished-at="2017-04-15T19:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- historycheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TestCase6@843fce]" name="afterMethod" is-config="true" duration-ms="1186" started-at="2017-04-15T19:07:18Z" finished-at="2017-04-15T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCase6 -->
+      <class name="testcases.TestCase5">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TestCase5@1c78c0b]" name="setData" is-config="true" duration-ms="0" started-at="2017-04-15T19:06:18Z" finished-at="2017-04-15T19:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TestCase5@1c78c0b]" name="beforeMethod" is-config="true" duration-ms="16700" started-at="2017-04-15T19:06:18Z" finished-at="2017-04-15T19:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cookiescheck()[pri:0, instance:testcases.TestCase5@1c78c0b]" name="cookiescheck" duration-ms="11025" started-at="2017-04-15T19:06:35Z" finished-at="2017-04-15T19:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiescheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TestCase5@1c78c0b]" name="afterMethod" is-config="true" duration-ms="1546" started-at="2017-04-15T19:06:46Z" finished-at="2017-04-15T19:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCase5 -->
+      <class name="testcases.TestCase2">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TestCase2@1dc03ce]" name="setData" is-config="true" duration-ms="0" started-at="2017-04-15T19:05:37Z" finished-at="2017-04-15T19:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TestCase2@1dc03ce]" name="beforeMethod" is-config="true" duration-ms="9428" started-at="2017-04-15T19:05:37Z" finished-at="2017-04-15T19:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="backbuttoncheck()[pri:0, instance:testcases.TestCase2@1dc03ce]" name="backbuttoncheck" duration-ms="19743" started-at="2017-04-15T19:05:46Z" finished-at="2017-04-15T19:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backbuttoncheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TestCase2@1dc03ce]" name="afterMethod" is-config="true" duration-ms="1263" started-at="2017-04-15T19:06:06Z" finished-at="2017-04-15T19:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCase2 -->
+      <class name="testcases.TestCase1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TestCase1@17996a0]" name="beforeSuite" is-config="true" duration-ms="564" started-at="2017-04-15T19:05:36Z" finished-at="2017-04-15T19:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TestCase1@17996a0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-04-15T19:05:37Z" finished-at="2017-04-15T19:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TestCase1@17996a0]" name="setData" is-config="true" duration-ms="0" started-at="2017-04-15T19:05:37Z" finished-at="2017-04-15T19:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TestCase1@17996a0]" name="beforeMethod" is-config="true" duration-ms="9502" started-at="2017-04-15T19:05:37Z" finished-at="2017-04-15T19:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="backbuttoncheck()[pri:0, instance:testcases.TestCase1@17996a0]" name="backbuttoncheck" duration-ms="7709" started-at="2017-04-15T19:05:46Z" finished-at="2017-04-15T19:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backbuttoncheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TestCase1@17996a0]" name="afterMethod" is-config="true" duration-ms="1484" started-at="2017-04-15T19:05:54Z" finished-at="2017-04-15T19:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TestCase1@17996a0]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-15T19:08:13Z" finished-at="2017-04-15T19:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TestCase1@17996a0]" name="afterSuite" is-config="true" duration-ms="692" started-at="2017-04-15T19:08:13Z" finished-at="2017-04-15T19:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TestCase1 -->
+      <class name="testcases.TestCase8">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TestCase8@17e1986]" name="setData" is-config="true" duration-ms="0" started-at="2017-04-15T19:07:19Z" finished-at="2017-04-15T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TestCase8@17e1986]" name="beforeMethod" is-config="true" duration-ms="5915" started-at="2017-04-15T19:07:19Z" finished-at="2017-04-15T19:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sensdatacheck()[pri:0, instance:testcases.TestCase8@17e1986]" name="sensdatacheck" duration-ms="12378" started-at="2017-04-15T19:07:25Z" finished-at="2017-04-15T19:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sensdatacheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TestCase8@17e1986]" name="afterMethod" is-config="true" duration-ms="1148" started-at="2017-04-15T19:07:38Z" finished-at="2017-04-15T19:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCase8 -->
+      <class name="testcases.TestCase7">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TestCase7@1dd3bcd]" name="setData" is-config="true" duration-ms="0" started-at="2017-04-15T19:06:55Z" finished-at="2017-04-15T19:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TestCase7@1dd3bcd]" name="beforeMethod" is-config="true" duration-ms="9694" started-at="2017-04-15T19:06:55Z" finished-at="2017-04-15T19:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="timeoutcheck()[pri:0, instance:testcases.TestCase7@1dd3bcd]" name="timeoutcheck" duration-ms="66699" started-at="2017-04-15T19:07:05Z" finished-at="2017-04-15T19:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeoutcheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TestCase7@1dd3bcd]" name="afterMethod" is-config="true" duration-ms="1175" started-at="2017-04-15T19:08:12Z" finished-at="2017-04-15T19:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TestCase7 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

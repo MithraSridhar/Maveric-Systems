@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testcases.TestCase3">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.TestCase3 -->
+      <class name="testcases.TestCase8">
+        <methods>
+          <include name="sensdatacheck"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.TestCase8 -->
+      <class name="testcases.TestCase5">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.TestCase5 -->
+      <class name="testcases.TestCase1">
+        <methods>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.TestCase1 -->
+      <class name="testcases.TestCase6">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.TestCase6 -->
+      <class name="testcases.TestCase4">
+        <methods>
+          <include name="mulsyscheck"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.TestCase4 -->
+      <class name="testcases.TestCase2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.TestCase2 -->
+      <class name="testcases.TestCase7">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.TestCase7 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
